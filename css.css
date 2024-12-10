@@ -3,16 +3,19 @@ body {
     margin: 0;
 }
 
-.nav
-{
+.nav {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+.nav_s {
     text-decoration: none;
     font-size: 16px;
-    background-color: black;
     color: white;
 }
 
-.nav_m
-{
+.nav_m {
 color: black;
 font-size: 24px;
 background-color: white;
@@ -24,30 +27,36 @@ margin: 4px 24px 0px 24px;
 }
 
 
-.profile_padding {
-    padding: 140px 0px;
-}
-
-.profile_align {
+/* .profile {
+    padding: 260px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
 }
 
 .profile_img {
     position: absolute;
     width: 400px;
     height: 400px;
-    border-radius: 50%;  
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;  
 }
 
 .profile_png {
     z-index: -10;
-    position: relative;
     width: 700px;
     height: 700px;
-    /* border-radius: 50%; */ 
+
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .profile_title {
     margin-top: 40px;
@@ -72,4 +81,4 @@ margin: 4px 24px 0px 24px;
     font-size: 22px;
     padding: 8px 24px;
     border-bottom: 8px solid black;
-}
+} */
