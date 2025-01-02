@@ -1,0 +1,26 @@
+
+@font-face {
+    font-family: 'Nexon';
+    src: url('fonts/NEXON\ Lv2\ Gothic.woff') format('woff');
+  }
+
+body {
+    display: flex;
+    flex-direction: row;
+    font-family: Nexon, Helvetica, sans-serif;
+    margin: 0;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.box {
+border: solid 0.5px black;
+width: 400px;
+height: 600px;
+}
+
+:not(.box) {
+    border-left: none;
+}
