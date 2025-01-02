@@ -21,9 +21,9 @@ body {
 
 .NITmodalBody{
     display: flex;
-    position: absolute;
+    position: fixed;
     border-radius: 5px;
-    top: 10%;
+    top: 50%;
     width:80%; 
     height:auto;
     padding:40px;  
