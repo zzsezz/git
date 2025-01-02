@@ -41,6 +41,10 @@ body {
     white-space: nowrap;
 }
 
+.BoxWrap::-webkit-scrollbar {
+    display: none;
+}
+
 .year {
     display: flex;
     cursor: pointer;
