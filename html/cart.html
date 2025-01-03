@@ -43,27 +43,28 @@
       <div class="BoxWrap">
 
         <div class="box">
-            <img class="btn-open-modal" style="width: 320px;" src="/img/nitlogo.png" alt="companylogo">
+            <img id="openmodal" class="openmodal" style="width: 320px;" src="/img/nitlogo.png" alt="companylogo">
         </div>
-        
-        <div class="NITmodal">
-            <div class="NITmodalBody">
+
+        <div class="NITmodal" id="NITmodal">
+            <div class="NITmodalBody" id="NITmodalBody">
                 <div class="NITtitle">
                 <p class="NITtitle1">NITSOFT WEBSITE</p>
                 <p>BTB</p>
+                <div class="closemodal" id="closemodal">close</div>
                 </div>
             </div>
         </div>
+        <!-- <script src="modal.js"></script> -->
         <script>
             const modal = document.querySelector('.NITmodal');
-            const btnOpenModal=document.querySelector('.btn-open-modal');
-    
-            btnOpenModal.addEventListener("click", ()=>{
+            const openmodal=document.querySelector('.openmodal');
+
+            openmodal.addEventListener("click", ()=>{
                 modal.style.display="flex";
             });
         </script>
         
-
         <div class="box">
             <a class="CartImg" href="https://artch.io/" target="_blank"><img style="width: 340px;" src="/img/artchlogo.png"></a>
         </div>
