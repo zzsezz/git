@@ -22,12 +22,20 @@ body {
       
 }
 
+.backbtn {
+display: flex;
+background-color: #e6fc58;
+padding: 8px;
+width: 30px;
+height: 30px;
+margin: 100px 0 0 40px;
+}
 
 .FirstBox {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding-top: 80px;
+    padding-top: 200px;
     padding-bottom: 60px;
 }
 
