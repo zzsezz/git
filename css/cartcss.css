@@ -79,3 +79,12 @@ margin: 100px 0 0 40px;
     margin-top: 100px;
     margin-bottom: 30px;
 }
+
+.CartImg:hover {
+    /* border: solid $b rgba(#e6fc58, .5); */
+    border-inline: solid 10px #e6fc58;
+    border-radius: 50%;
+    
+     /* inset 0px 0px 40px 40px #e6fc58; */
+
+}
